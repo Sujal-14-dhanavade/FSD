@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQCm4tJzl1DKt21JOWwYas7G84azmea4pty-NQpZuAK40lfzAvZYWyKR4k-gB4ysAewA&usqp=CAU") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  background-color: rgb(51, 132, 138);
+  padding: 30px;
+  text-align: center;
+  text-decoration: double;
+  
+  font-size: 25px;
+  color: rgb(250, 254, 255);
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+} 
+
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(219, 223, 34);
+  padding: 40px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+footer {
+  background-color: rgb(69, 67, 201);
+  padding: 20px;
+  text-align: center;
+  color: rgb(253, 241, 241);
+}
+
+/
+@media (max-width: 800px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: row-reverse;
+}
+</style>
+</head>
+<body>
+
+
+<header>
+    
+  <h2>MIT WORLD PEACE UNIVERSITY</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://mitwpu.edu.in/">ENGINEERING</a></li>
+      <li><a href="https://pharmacy.mitwpu.edu.in/">PHARMACY</a></li>
+      <li><a href="https://management.mitwpu.edu.in/">BUISNESS</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1><strong>MIT WPU PUNE</strong></h1>
+    <p>MIT-WPU’s B. Tech programme focuses on shaping the engineers of tomorrow. Our B. Tech programme is ranked 10th in India in the Times of India Survey 2019 and 5th best for Research in India. </p>
+    <p> We have added tech modules that are in high demand in the industry today for holistic learning.</p>
+    <p> Recruiters have offered the highest salary package of INR 44.15 lacs p.a. and an average of INR 6.5 lacs p.a in previous year.</p>
+  </article>
+</section>
+
+<footer>
+    <a href="https://admissions.mitwpu.edu.in/bpharm/?utm_source=google&utm_medium=gsn-bpharm&utm_campaign=gsn-bpharm-zoneA&gclid=EAIaIQobChMItIe6j5uW-QIVVx0rCh2r5g4sEAAYASAAEgJxMfD_BwE">
+  <button>Apply Now</button></a>
+</footer>
+
+</body>
+</html>
+
