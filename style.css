@@ -1,0 +1,29 @@
+body{
+  margin:20px;
+  background-color: #D9F8C4
+}
+
+.introduction{
+  margin: 20px;
+}
+.info{
+  margin-left: 20px;
+}
+
+hr{
+  border-style: none;
+  border-top: dotted;
+  width: 100%;
+  border-width:100%;
+}
+
+
+table,tr,td{
+  border-style: none;
+}
+img{
+  border-style: none;
+  border-radius: 80%;
+  height: 200px;
+  width: 200px;
+}
